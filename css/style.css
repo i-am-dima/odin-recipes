@@ -51,7 +51,9 @@
 .links a {
     color: black;
     text-decoration-color: rgba(78, 157, 120, 0);
-    transition: text-decoration-color 300ms;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+    text-underline-offset: 0.2em;
+
 }
 
 .links a:hover {
