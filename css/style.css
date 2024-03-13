@@ -20,23 +20,37 @@
 
 .description,
 .ingredients,
-.steps,
-.links {
+.steps {
     padding: 20px;
     padding-left: 200px;
 }
 
 .links {
-    font-size: 24px;
+    font-size: 22px;
+    /* height: 500px; */
+    padding: 50px;
 }
 
-.links li {
-    padding: 26px;
+.links ul {
+    display: flex;
     list-style: none;
+}
+
+.links ul li {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.links img {
+    height: 250px;
+    width: 250px;
 }
 .image-block img {
     height: 500px;
 }
+
 .steps,
 .description,
 .ingredients,
