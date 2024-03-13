@@ -20,16 +20,26 @@
 
 .description,
 .ingredients,
-.steps {
+.steps,
+.links {
     padding: 20px;
     padding-left: 200px;
 }
 
+.links {
+    font-size: 24px;
+}
+
+.links li {
+    padding: 26px;
+    list-style: none;
+}
 .image-block img {
     height: 500px;
 }
 .steps,
 .description,
-.ingredients {
+.ingredients,
+.links {
     background-color: rgba(206, 206, 206, 0.432);
 }
