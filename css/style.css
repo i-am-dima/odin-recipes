@@ -12,6 +12,11 @@
     text-transform: uppercase;
 }
 
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
 .image-block {
     text-align: center;
     padding: 10px;
