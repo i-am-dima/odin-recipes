@@ -9,12 +9,27 @@
     color: white;
     font-size: 32px;
     text-align: center;
-}
-h1 {
     text-transform: uppercase;
 }
 
+.image-block {
+    text-align: center;
+    padding: 10px;
+    background-color: #72896873;
+}
+
+.description,
+.ingredients,
+.steps {
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.image-block img {
+    height: 500px;
+}
 .steps,
-.description {
+.description,
+.ingredients {
     background-color: rgba(206, 206, 206, 0.432);
 }
