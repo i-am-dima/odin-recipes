@@ -1,3 +1,11 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1 {
     text-transform: uppercase;
+}
+
+.steps,
+.description {
+    background-color: rgba(206, 206, 206, 0.432);
 }
