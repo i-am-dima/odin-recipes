@@ -32,13 +32,13 @@
 
 .links {
     font-size: 22px;
-    /* height: 500px; */
     padding: 50px;
 }
 
 .links ul {
     display: flex;
     list-style: none;
+    /* border: 2px solid red; */
 }
 
 .links ul li {
@@ -53,7 +53,8 @@
     text-decoration-color: rgba(78, 157, 120, 0);
     transition: text-decoration-color 300ms, text-underline-offset 300ms;
     text-underline-offset: 0.2em;
-
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 .links a:hover {
