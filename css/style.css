@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-color: rgb(78, 157, 120);
+    background-color: #4e9d78;
     color: white;
     font-size: 32px;
     text-align: center;
@@ -46,6 +46,17 @@
     flex-direction: column;
     flex: 1;
     align-items: center;
+}
+
+.links a {
+    color: black;
+    text-decoration-color: rgba(78, 157, 120, 0);
+    transition: text-decoration-color 300ms;
+}
+
+.links a:hover {
+    text-decoration-color: #4e9d78;
+    text-underline-offset: 0.4em;
 }
 
 .links img {
